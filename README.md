@@ -3,6 +3,11 @@
 
 
 ### Screenshots
+![Tutorial Screenshot](img.png)
+
+
+
+
 Here is a screenshot from the tutorial video showing the project in action:
 
 ![Tutorial Screenshot](youtube.png)
@@ -38,27 +43,7 @@ pip install pandas numpy matplotlib Pillow pytesseract easyocr keras-ocr
    - **Method 2: easyocr**: Utilize EasyOCR for OCR tasks.
    - **Method 3: keras_ocr**: Deploy Keras OCR for text recognition.
 
-### Example Usage
-- **Visualizing Images**: Display images with annotations:
-  ```python
-  import matplotlib.pyplot as plt
-  
-  img_path = './data/train_images/example.jpg'
-  img = plt.imread(img_path)
-  plt.imshow(img)
-  plt.axis('off')
-  plt.show()
-  ```
 
-- **Performing OCR**:
-  ```python
-  import pytesseract
-  from easyocr import Reader
-  import keras_ocr
-  
-  # Example usage of each OCR method
-  # (Code snippets provided in the project)
-  ```
 
 ### Results
 - **OCR Results Comparison**: Compare results from `easyocr` and `keras_ocr` for accuracy and performance.
