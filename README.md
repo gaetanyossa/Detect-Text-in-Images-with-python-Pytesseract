@@ -51,4 +51,4 @@ pip install pandas numpy matplotlib Pillow pytesseract easyocr keras-ocr
 ### Conclusion
 This README outlines the project setup, dependencies, and usage instructions for extracting text from images using Python libraries. The project follows the tutorial by Rob MULLA and utilizes the TextOCR dataset from Kaggle. For detailed implementation and exploration, refer to the provided Python scripts and notebooks.
 
-Tutorial Video: [Extracting Text from Images with Python](https://www.kaggle.com/code/robikscub...) by Rob MULLA.
+Tutorial Video: [Extracting Text from Images with Python](https://www.kaggle.com/code/robikscube/extracting-text-from-images-youtube-tutorial) by Rob MULLA.
